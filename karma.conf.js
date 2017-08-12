@@ -29,7 +29,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'build/motion-path.js': ['coverage'],
+      'build/get-radial-point.js': ['coverage'],
       'spec/*.spec.babel.js': ['webpack'],
     },
 

@@ -1,6 +1,6 @@
 {
-  "name": "mojs-util-motion-path",
-  "description": "mojs util for motion paths",
+  "name": "mojs-get-radial-point",
+  "description": "mojs helper to get radial point",
   "version": "0.10.0",
   "license": "MIT",
   "private": false,
@@ -14,7 +14,7 @@
     "stats:js": "echo \"Size of mo.js is $(gzip -c build/mo.js | wc -c) bytes gzipped\"",
     "prepush": "npm run lint && npm test"
   },
-  "main": "build/motion-path.js",
+  "main": "build/get-radial-point.js",
   "keywords": [
     "motion",
     "effects",
@@ -35,12 +35,7 @@
     "url": "https://github.com/legomushroom/mojs/issues"
   },
   "homepage": "https://github.com/legomushroom/mojs",
-  "dependencies": {
-    "mojs-tween": "^0.11.0",
-    "mojs-util-class-proto": "^0.10.1",
-    "mojs-util-parse-stagger-property": "^0.10.0",
-    "mojs-util-separate-tween-options": "^0.10.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.0",

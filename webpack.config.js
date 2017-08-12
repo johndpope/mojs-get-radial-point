@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const UnminifiedWebpackPlugin = require('unminified-webpack-plugin');
 
 const root = path.resolve('./');
-const moduleFileName = 'motion-path';
+const moduleFileName = 'get-radial-point';
 module.exports = {
   devtool: 'source-map',
   watch: true,

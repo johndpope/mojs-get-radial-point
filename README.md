@@ -1,1 +1,1 @@
-# mojs util for motion path
+# mojs helper that gets radial point
